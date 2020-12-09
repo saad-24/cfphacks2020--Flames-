@@ -1,0 +1,206 @@
+
+:root{
+   --light-gray: #2b3032a1
+   --primary-color: #45ccb8
+   --border:
+   --text-color:
+   --roboto: "Roboto", sans-serif:
+   --gugi: "Gugi", cursive:
+   --sofia: "Sofia", cursive;
+}
+
+.primary-color{
+    color: var(--primary-color);
+}
+
+.bg-primary-color{
+    background-color: var(--primary-color) !important
+}
+
+.text-color{
+    color:greenyellow;
+}
+
+.font-roboto{
+    font-family: var(--roboto);
+}
+
+.lightblue{
+    color: lightblue;
+}
+
+/* header */
+
+header{
+    background-color: white;
+}
+
+.my-md-3{
+    font-size: 40px;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.my-md-4{
+    font-size: 40px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.my-md-5{
+    font-size: 25px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.px-2{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.px-1{
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-nav .nav-item .nav-link{
+    padding:0 3.0em ;
+}
+
+/* Slider one */
+
+.site-slider{
+    position: relative;
+}
+
+.position-top{
+    position: absolute;
+    top: 50%;
+}
+
+.site-slider .slider-btn .prev,
+.site-slider .slider-btn .next{
+    background-color: burlywood;
+    padding: 1rem 1.5rem;
+    border-radius: 10rem;
+    color: white;
+    margin: 0 1rem;
+    opacity: 0;
+    transition: ease;
+}
+
+.site-slider:hover .slider-btn .prev,
+.site-slider:hover .slider-btn .next{
+    opacity: 1;
+}
+
+.right-0{
+    right: 0px ;
+}
+
+.container1{
+    padding-top: 50px;
+    
+}
+
+.product-grid{
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.product-grid1{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.product-grid1:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.product-grid:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+}
+
+.italic{
+    font-style: italic;
+    text-align: center;
+}
+
+.image{
+    position: relative;
+}
+
+.buy{
+    background-color:transparent;
+    color: #434444;
+    border-radius: 0;
+    border: 1px solid #434444;
+    width: 100%;
+    margin-top: 20px;
+    border-style: dotted;
+}
+
+.buy:hover{
+    background-color: crimson;
+}
+
+.conatainer2{
+    margin-top: 100px;
+}
+
+.price{
+    color:darkorange;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input{
+    border: 1px solid #ccc;
+    font-weight: bold;
+    height: 33px;
+    text-align: center;
+    width: 40px;
+}
+
+.cart{
+    background-color: burlywood;
+    border-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    border-style: hidden;
+}
+
+.bold{
+    font-weight: bold;
+    background: cyan;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.banner video{
+    position:absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
